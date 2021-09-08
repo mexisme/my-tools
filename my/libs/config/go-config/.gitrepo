@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:mexisme/go-config
+	branch = master
+	commit = 362eeae4f1c19d3661f3eba592c51d9c9f95a4f2
+	parent = 00959befc20dd7729209c5c4824aa3c1f3dde7e9
+	method = merge
+	cmdver = 0.4.1

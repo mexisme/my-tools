@@ -1,0 +1,14 @@
+language: go
+
+go:
+  - 1.11.x
+  - tip
+
+# script:
+#   - env GO111MODULE=on go test ./...
+
+script:
+  - env GO111MODULE=on go test ./...
+  - env GO111MODULE=on go get -u ./...
+  - env GO111MODULE=on go get -u github.com/onsi/ginkgo/ginkgo
+  - env GO111MODULE=on ginkgo -r -p
