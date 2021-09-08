@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:mexisme/osx-env-sync
+	branch = develop
+	commit = f71f3dc9ee0e226af957aa88aaa16b9656c3e8cd
+	parent = 8196968c07c824b38aeae1a65957a4aee539f7a4
+	method = merge
+	cmdver = 0.4.1
