@@ -1,0 +1,33 @@
+* Tasks [5/7]
+** TODO Write CI tests for the AWS libraries
+** DONE Write README
+** TODO Add code-comments explainging how func init() gets auto-run, first
+** TODO Add a `--help` mode.
+** DONE s3 library
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2017-06-23 Fri 22:05]
+   :END:
+** DONE .env writing library
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2017-06-23 Fri 22:05]
+   :END:
+   - Non-nested KV format
+   - Maybe support some other formats in future
+** DONE Env Var managing library [3/4]
+   I need to
+   - [X]  be able to read-in properties from a given path (Viper, .env)
+   - [-]  write-out in .env format
+   - [X]  export to an Env-var structure from the above properties
+   - [X]  merge the Env-var structure with the original env
+** DONE Exec other binary + args [3/4]
+   I need to:
+   - [X] get a binary + args + env
+   - [-] produce a .env, if required
+   - [X] merge+export the env, if required
+   - [X] run the binary
+** MAYBE Intermediate library that reads a provided config file
+   - Needs to support Viper
+   - Can I write a plugin to support .env type of file
+     - Should I just use godotenv?
+* Notes:
+** Use `--` before the commands to run to stop the flags processor from processing anything more

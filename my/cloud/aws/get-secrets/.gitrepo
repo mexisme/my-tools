@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:mexisme/get-secrets
+	branch = master
+	commit = dd9a6c6a5052e8f81573ad7836bc84c04ae39d92
+	parent = dd3a0e9ea00ee8c21f15d8c9a735df76d4d0c58a
+	method = merge
+	cmdver = 0.4.1
