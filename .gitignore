@@ -1,0 +1,22 @@
+# Javascript:
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# Python:
+__pycache__/
+**/requirements.txt
+/vendored-pip
+
+# IDEs
+.idea
+
+# OS
+.DS_Store
+
+# Backup files
+*~
+
+# Logs
+.log/**
