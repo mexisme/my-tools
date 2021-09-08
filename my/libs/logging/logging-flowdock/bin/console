@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "logging"
+
+# You can add fixtures and/or initialization code here to make experimenting
+# with your gem easier. You can also use a different console, if you like.
+
+# (If you use this, don't forget to add pry to your Gemfile!)
+# require "pry"
+# Pry.start
+
+name, api_token = ARGV
+
+::Logging.logger.root.add_appenders(::Logging.appenders.stderr)
+::Logging.logger.root.add_appenders(Logging.appenders.flowdock(name, api_token: api_token, flow_user: "TEST-#{name}"))
+::Logging.logger.root.level = :debug
+
+log = Logging.logger["Console Test"]
+
+require "irb"
+IRB.start

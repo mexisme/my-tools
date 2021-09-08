@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:mexisme/logging-flowdock
+	branch = develop
+	commit = cb1b33ef4c293d73707b0505fb24f5a8a136ed29
+	parent = f71da664b011fe39dc748733afa32ce461b9516c
+	method = merge
+	cmdver = 0.4.1

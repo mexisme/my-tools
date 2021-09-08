@@ -1,0 +1,6 @@
+* Tasks
+** DONE Add docs to the README!
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2016-02-03 Wed 17:01]
+   :END:
+** TODO Add better doc-comments!
