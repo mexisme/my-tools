@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:mexisme/s3destroy
+	branch = master
+	commit = 1d908e184220ad1150ce816e44a2901e3b06585e
+	parent = 6969bcd6711c2333e1e99c3a5007782c8bac7298
+	method = merge
+	cmdver = 0.4.1

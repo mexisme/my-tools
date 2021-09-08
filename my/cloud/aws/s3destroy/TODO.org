@@ -1,0 +1,17 @@
+* Tasks [0/0]
+  :PROPERTIES:
+  :ARCHIVE:  %s_archive::* Tasks
+  :COOKIE_DATA: todo recursive
+  :END:
+** TODO Lister [0/2]
+   - [ ] Create worker pool for lister
+   - [ ] Get list of all objects in a bucket
+     - Use Paging
+* Journal
+  - Login to S3
+  - Get a list of all objects in the tree
+    - Add each to the worker queue
+  - Get a list of all versions of objects in the tree
+    - Add each to the worker queue
+  - How do we avoid saturating the API?
+  - Don't need to keep track of current state, can (and should) just restart
