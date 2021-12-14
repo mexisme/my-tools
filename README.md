@@ -4,7 +4,7 @@ Welcome!
 
 This repo is a Monorepo.
 
-In [docs/MONOREPO.md](docs/MONOREPO.md) is some more details about what a Monorepo is, and how we're (currently) managing it.
+In [docs/MONOREPO.md](docs/MONOREPO.md) is some more details about what a Monorepo is, and how I'm (currently) managing it.
 
 ## The basic structure
 
