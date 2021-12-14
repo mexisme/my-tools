@@ -15,6 +15,8 @@ NOTE: the `//` symbol is "sugar" to designate the root of the entire repo, indep
 `//third_party/`
 - Source code and tools from Third Parties that we use. This should normally be source code, as storing binary data in here will bloat the repo rapidly.
 - There is a [//third_party/README.md](third_party/README.md) in the root of this directory detailing the directory hierarchy, all the Third Party code, where it came from, versioning, etc.
+- Code may be imported from external sources with tools like Git Subrepo, Subtree, Strees, Submodule, etc, and should also go in here.
+
 
 `//my/`
 - This is the root of all source code.
