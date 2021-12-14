@@ -52,7 +52,7 @@ additional detail.
 - Use the doc-generation tooling to extract doc comments to either HTML or Markdown formats.
   The post-generated documentation can be stored in the `docs/` directory of and checked-in for others to read, if necessary, but please make sure not to update it in-place, to avoid any new comments being overwritten by another generation step.
 
-### Build and Release
+### Metadata, Build and Release
 
 `//.github/CODEOWNERS`
 - This is a GitHub metadata file describing the "owners" for various parts of the code hierarchy.
